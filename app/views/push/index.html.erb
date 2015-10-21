@@ -1,0 +1,8 @@
+<h2>Pushing out version <%= @version.version %> to:</h2>
+<hr>
+
+<% @users.each do |user| %>
+  UUID: <%= user.uuid %><br>
+  Endpoint: <%= user.endpoint %><br>
+  <br>
+<% end %>
